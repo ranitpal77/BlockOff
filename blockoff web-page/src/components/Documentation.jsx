@@ -213,9 +213,9 @@ for (let i = 0; i < totalChunks; i++) {
 
                     {/* Security */}
                     <motion.div id="security" className="doc-section" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-                        <h2>6. Security Architecture</h2>
+                        <h2>4. Security Architecture</h2>
 
-                        <h3>6.1 Cryptographic Security</h3>
+                        <h3>4.1 Cryptographic Security</h3>
                         <p>All transactions use ECDSA signatures for authentication:</p>
                         <ul>
                             <li><strong>Private Key:</strong> 256-bit random number</li>
@@ -223,7 +223,7 @@ for (let i = 0; i < totalChunks; i++) {
                             <li><strong>Signature:</strong> Proves ownership without revealing private key</li>
                         </ul>
 
-                        <h3>6.2 Replay Attack Prevention</h3>
+                        <h3>4.2 Replay Attack Prevention</h3>
                         <div className="highlight-box">
                             <ul>
                                 <li><strong>Unique Nonces:</strong> Each transaction uses cryptographically secure nonce</li>
@@ -232,7 +232,7 @@ for (let i = 0; i < totalChunks; i++) {
                             </ul>
                         </div>
 
-                        <h3>6.3 Privacy Considerations</h3>
+                        <h3>4.3 Privacy Considerations</h3>
                         <ul>
                             <li><strong>Non-Custodial:</strong> Users maintain full control of private keys</li>
                             <li><strong>Local Storage:</strong> Keys encrypted and stored on device</li>
@@ -242,7 +242,7 @@ for (let i = 0; i < totalChunks; i++) {
 
                     {/* Use Cases */}
                     <motion.div id="use-cases" className="doc-section" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-                        <h2>9. Use Cases and Applications</h2>
+                        <h2>5. Use Cases and Applications</h2>
 
                         <div className="use-case-grid">
                             <div className="use-case-card">
